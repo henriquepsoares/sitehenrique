@@ -1,29 +1,31 @@
-# Site Pessoal em HTML e CSS
+# 🌐 Site Pessoal em HTML e CSS
 
-Este projeto consiste na criação de um site pessoal simples utilizando apenas HTML e CSS. O objetivo é apresentar informações pessoais, competências profissionais e outras seções relevantes, tudo com um design responsivo e visual atraente.
+Este projeto é um **site pessoal** criado com HTML e CSS, utilizando **emojis e ícones animados** para destacar competências e tecnologias de forma visual.
 
-## Descrição
+## 📄 Descrição
 
-O site contém:
+O site apresenta:
 
-- Uma página inicial com informações sobre o autor.
-- Seções para “Sobre Mim”, “Competências” e “Tecnologias”.
-- Um fundo personalizado com uma imagem (arquivo `henro.png`).
-- Estilo aplicado via CSS para garantir boa legibilidade e um visual moderno.
+- 🏠 Página inicial com informações pessoais e profissionais.
+- 👨‍💻 Seções para “Sobre Mim”, “Competências” e “Tecnologias”.
+- 🖼️ Fundo personalizado com a imagem `henro.png`.
+- ✨ Emojis e GIFs animados para ilustrar habilidades.
+- 💻 Design responsivo e moderno.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** para estruturar o conteúdo.
-- **CSS3** para estilização e layout responsivo.
-- Imagem de fundo para personalização visual.
+- **HTML5** – Estrutura do site.
+- **CSS3** – Estilização, layout e efeitos.
+- **GIFs animados / Emojis** – Para representar competências visualmente.
+- 🖼️ Imagem de fundo personalizada.
 
-## Como Usar
+## 🚀 Como Usar
 
 1. Clone o repositório para sua máquina local.
-2. Certifique-se de que o arquivo `index.html` e a imagem `henro.png` estejam na mesma pasta.
-3. Abra o arquivo `index.html` em qualquer navegador moderno para visualizar o site.
+2. Certifique-se de que `index.html`, `henro.png` e GIFs de ícones estejam na pasta correta.
+3. Abra `index.html` em um navegador moderno.
 4. Para usar via Docker:
-   - Construa a imagem com o Dockerfile incluído.
-   - Rode o container mapeando a porta 80 para acessar o site localmente.
+   - Construa a imagem com o Dockerfile.
+   - Rode o container e mapeie a porta 80 para acessar o site.
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
