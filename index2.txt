@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henrique Polo | Cloud Engineer</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3a8a, #2563eb);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #60a5fa;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #1e3a8a;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background-color: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      color: #38bdf8;
+      font-weight: bold;
+    }
+
+    /* Tech icons */
+    .tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      font-size: 50px;
+      margin-top: 20px;
+    }
+
+    .tech i {
+      transition: transform 0.3s, color 0.3s;
+      cursor: pointer;
+    }
+
+    .tech i:hover {
+      transform: scale(1.3);
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #020617;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Henrique Polo</h1>
+    <p>AWS & Azure Cloud Engineer | DevOps | Cloud Architect</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Sobre Mim</h2>
+      <div class="card">
+        <p>
+          Cloud Solutions Architect e Infrastructure Project Manager com mais de 
+          <span class="highlight">25 anos de experiência</span> em TI.
+        </p>
+        <p>
+          Especialista em soluções cloud escaláveis, seguras e altamente disponíveis,
+          com forte atuação em automação, DevOps e segurança.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Competências</h2>
+      <div class="card">
+        <ul>
+          <li>☁️ AWS & Azure (Arquitetura e Migração)</li>
+          <li>⚙️ DevOps (CI/CD, GitHub Actions, Jenkins)</li>
+          <li>🔐 Segurança (IAM, Zero Trust, Defender, Sentinel)</li>
+          <li>📦 Docker & Kubernetes (AKS, EKS)</li>
+          <li>🧠 Terraform, Bicep, CloudFormation</li>
+          <li>📊 Power Platform & Dynamics 365</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tecnologias</h2>
+      <div class="card">
+        <div class="tech">
+          <i class="devicon-github-original" title="GitHub"></i>
+          <i class="devicon-git-plain" title="Git"></i>
+          <i class="devicon-terraform-plain" title="Terraform"></i>
+          <i class="devicon-vscode-plain" title="VS Code"></i>
+          <i class="devicon-azure-plain" title="Azure"></i>
+          <i class="devicon-amazonwebservices-original" title="AWS"></i>
+          <i class="devicon-python-plain" title="Python"></i>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experiência</h2>
+      <div class="card">
+        <p>
+          Experiência em AWS e Azure com EC2, S3, Lambda, Azure VMs, AKS, Azure AD,
+          pipelines DevOps, monitoramento e segurança.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Impacto</h2>
+      <div class="card">
+        <p>
+          Instrutor e criador de conteúdo com mais de 
+          <span class="highlight">23.000 alunos</span> e 
+          <span class="highlight">10M+ visualizações</span>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <div class="card">
+        <p>Email: henrique@email.com</p>
+        <p>LinkedIn: linkedin.com/in/henriquepolo</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Henrique Polo</p>
+  </footer>
+
+</body>
+</html>

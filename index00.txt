@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henrique Polo | Cloud Engineer</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* FUNDO COM ÍCONES */
+    .background-icons {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .background-icons i {
+      position: absolute;
+      font-size: 60px;
+      color: rgba(255, 255, 255, 0.05);
+      animation: float 20s linear infinite;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(-10vh) rotate(360deg);
+      }
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3a8a, #2563eb);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #60a5fa;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #1e3a8a;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background-color: rgba(30, 41, 59, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 10px;
+      backdrop-filter: blur(5px);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      color: #38bdf8;
+      font-weight: bold;
+    }
+
+    /* TECH ICONS (seção principal) */
+    .tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      font-size: 50px;
+      margin-top: 20px;
+    }
+
+    .tech i {
+      transition: transform 0.3s, color 0.3s;
+      cursor: pointer;
+    }
+
+    .tech i:hover {
+      transform: scale(1.3);
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #020617;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- FUNDO ANIMADO -->
+  <div class="background-icons">
+    <i class="devicon-github-original" style="left: 10%; animation-delay: 0s;"></i>
+    <i class="devicon-git-plain" style="left: 20%; animation-delay: 5s;"></i>
+    <i class="devicon-terraform-plain" style="left: 30%; animation-delay: 2s;"></i>
+    <i class="devicon-vscode-plain" style="left: 40%; animation-delay: 8s;"></i>
+    <i class="devicon-azure-plain" style="left: 50%; animation-delay: 3s;"></i>
+    <i class="devicon-amazonwebservices-original" style="left: 60%; animation-delay: 6s;"></i>
+    <i class="devicon-python-plain" style="left: 70%; animation-delay: 1s;"></i>
+    <i class="devicon-docker-plain" style="left: 80%; animation-delay: 4s;"></i>
+  </div>
+
+  <header>
+    <h1>Henrique Polo</h1>
+    <p>AWS & Azure Cloud Engineer | DevOps | Cloud Architect</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Sobre Mim</h2>
+      <div class="card">
+        <p>
+          Cloud Solutions Architect e Infrastructure Project Manager com mais de 
+          <span class="highlight">25 anos de experiência</span>.
+        </p>
+        <p>
+          Especialista em soluções cloud escaláveis, seguras e altamente disponíveis,
+          com forte atuação em automação, DevOps e segurança.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Competências</h2>
+      <div class="card">
+        <ul>
+          <li>☁️ AWS & Azure</li>
+          <li>⚙️ DevOps e CI/CD</li>
+          <li>🔐 Segurança (Zero Trust, Defender)</li>
+          <li>📦 Docker & Kubernetes</li>
+          <li>🧠 Terraform, Bicep</li>
+          <li>📊 Power Platform</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tecnologias</h2>
+      <div class="card">
+        <div class="tech">
+          <i class="devicon-github-original"></i>
+          <i class="devicon-git-plain"></i>
+          <i class="devicon-terraform-plain"></i>
+          <i class="devicon-vscode-plain"></i>
+          <i class="devicon-azure-plain"></i>
+          <i class="devicon-amazonwebservices-original"></i>
+          <i class="devicon-python-plain"></i>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experiência</h2>
+      <div class="card">
+        <p>
+          Experiência com AWS e Azure incluindo EC2, S3, Lambda, Azure VMs,
+          AKS, pipelines DevOps e segurança cloud.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <div class="card">
+        <p>Email: henrique@email.com</p>
+        <p>LinkedIn: linkedin.com/in/henriquepolo</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Henrique Polo</p>
+  </footer>
+
+</body>
+</html>
